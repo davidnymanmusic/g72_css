@@ -1,0 +1,61 @@
+h1 {
+  color: rgb(84, 106, 133);
+  font-size: 8em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2 {
+  color: rgb(214, 200, 221);
+  font-size: 4em;
+  text-align: center;
+  font-family: Arial;
+}
+
+h2:hover {
+  color: rgb(131, 119, 236);
+  text-decoration: overline;
+  text-decoration-style: dashed;
+}
+body {
+  background-color: rgb(146, 195, 219);
+  border: 50px;
+  border-style: dotted;
+  border-color: rgb(255, 248, 148);
+}
+
+h1:hover {
+  color: rgb(175, 146, 203);
+  font-family: Arial;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+p {
+  color: rgb(247, 203, 184);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 25px;
+}
+p:hover {
+  color: rgb(185, 255, 196);
+  font-size: 30px;
+}
+img {
+  display: block;
+  margin: auto;
+  transition: 2s;
+  width: 280px;
+  height: 280px;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.pets {
+  line-height: 0;
+  display: block;
+  margin: auto;
+  column-count: 2;
+  }
